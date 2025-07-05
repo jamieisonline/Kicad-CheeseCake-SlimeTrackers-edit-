@@ -3375,6 +3375,18 @@
 		(uuid 8207386a-696c-4c3d-81b9-afb91ac638d2)
 	)
 	(rectangle
+		(start 12.0087 130.81)
+		(end 71.12 197.9999)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a4fcee3d-446e-4222-a419-c660de837928)
+	)
+	(rectangle
 		(start 12.0523 71.12)
 		(end 71.12 130.81)
 		(stroke
@@ -3408,6 +3420,26 @@
 		)
 		(uuid "45116e9c-f820-4363-8692-7f931ebb9630")
 	)
+	(text_box "ESP"
+		(exclude_from_sim no)
+		(at 27.94 190.5 0)
+		(size 6.35 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "09796c62-35c4-47eb-af2a-c85de6d6a614")
+	)
 	(text_box ""
 		(exclude_from_sim no)
 		(at 45.72 66.04 0)
@@ -3430,7 +3462,7 @@
 	)
 	(text_box "UART"
 		(exclude_from_sim no)
-		(at 16.51 116.84 0)
+		(at 38.1 123.19 0)
 		(size 6.35 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4448,9 +4480,31 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 45.72 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c9487e4-e9b0-45fd-a762-ec550957f4e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2877 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO15"
 		(shape input)
-		(at 25.4 180.34 180)
+		(at 22.86 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4460,7 +4514,29 @@
 		)
 		(uuid "82e8e791-2c11-4c02-a1fe-4777363f94b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.5205 180.34 0)
+			(at 12.9805 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 45.72 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83637a85-e952-431d-8830-608b7d260f3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.1667 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,6 +4603,28 @@
 		(uuid "af14f0ac-5ee9-4d08-b1f1-85ac088fa209")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.2443 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN"
+		(shape input)
+		(at 45.72 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b17dbf6e-e9da-4af6-8378-0efcc0f2a5f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.2553 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,6 +4788,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 45.72 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c32faaf3-7b8a-4ba1-9c28-b914f3cd940d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2272 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO15"
 		(shape input)
 		(at 31.75 166.37 180)
@@ -4774,6 +4894,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape input)
+		(at 45.72 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1ebcf8f-58c4-4509-8dae-9eed9de6f404")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5025,6 +5167,140 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 49.53 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10145458-14a5-4cb2-baa3-cd108da366ac")
+		(property "Reference" "R8"
+			(at 48.26 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 49.53 182.372 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 185.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8beedd36-4be9-4824-bc90-af7dc9180291")
+		)
+		(pin "2"
+			(uuid "742de944-2a81-43ff-b0ef-85cea5c0a6cb")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14e4292c-4756-4151-ac96-b11bdb984cb2")
+		(property "Reference" "R7"
+			(at 48.26 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 49.53 178.562 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b326b5c-cad3-4694-abec-3b601ebebd75")
+		)
+		(pin "2"
+			(uuid "95b49198-cab1-420a-80db-38d8b750be96")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 24.13 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5189,6 +5465,73 @@
 			(project ""
 				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ca305a2-670e-493e-9b33-cebd4c995887")
+		(property "Reference" "#PWR018"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 57.15 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "251934dc-4579-4419-9a34-c31869810846")
+		)
+		(instances
+			(project ""
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5864,6 +6207,207 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61b2d747-d0ef-4b6c-b81e-43e5f079c7a2")
+		(property "Reference" "#PWR021"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 57.15 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a47b8a2-6dd0-40b2-82fc-4df8027035fa")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c48fbb-1f84-4a54-a965-81bf873152bb")
+		(property "Reference" "#PWR020"
+			(at 49.53 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 57.15 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35afdad7-4370-44c1-8278-614569cc5669")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 191.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65c4996d-bb90-4691-9671-1d9ddf3f29cc")
+		(property "Reference" "#PWR022"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 57.15 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e3fb66c-778f-4191-a247-44ba4b6b8ce0")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 129.54 20.32 0)
 		(unit 1)
@@ -6065,7 +6609,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 180.34 90)
+		(at 30.48 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6074,7 +6618,7 @@
 		(fields_autoplaced yes)
 		(uuid "77ad7e66-a3f3-4ef4-b43a-80d865bb45d4")
 		(property "Reference" "#PWR017"
-			(at 39.37 180.34 0)
+			(at 36.83 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +6627,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 180.3399 90)
+			(at 34.29 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 180.34 0)
+			(at 30.48 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 180.34 0)
+			(at 30.48 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +6654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 180.34 0)
+			(at 30.48 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,16 +7128,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.21 180.34 90)
+		(at 26.67 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ffccdda-0d00-48ef-a697-b06056a7b20e")
 		(property "Reference" "R5"
-			(at 29.21 173.99 90)
+			(at 25.654 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +7144,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 29.21 176.53 90)
+			(at 26.416 176.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +7152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 182.118 90)
+			(at 26.67 180.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +7161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 180.34 0)
+			(at 26.67 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +7170,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 29.21 180.34 0)
+			(at 26.67 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,6 +7255,140 @@
 			(project ""
 				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 191.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a879562b-a051-4fe7-ac37-4200d8435eac")
+		(property "Reference" "R10"
+			(at 49.022 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 49.53 189.992 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 193.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95db3486-cee6-4c3f-ab32-d3374789417f")
+		)
+		(pin "2"
+			(uuid "75fa767b-fd2b-4161-be5c-19e400c9c0a3")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa623f8c-2e89-43db-9b9f-f19d0e7836c0")
+		(property "Reference" "#PWR019"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 57.15 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaae664d-6bbb-44c5-9e81-8fe19fd33615")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7209,6 +7886,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 49.53 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5a6d3ab-63b8-4285-9247-a9c8cf190098")
+		(property "Reference" "R9"
+			(at 48.26 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 49.53 186.182 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 189.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7618628-d5e1-44ba-98f2-ee3170400360")
+		)
+		(pin "2"
+			(uuid "831b99ed-2474-49e4-9391-56db43ad0340")
+		)
+		(instances
+			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 52.07 39.37 0)
 		(unit 1)
@@ -7442,6 +8186,73 @@
 			(project ""
 				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6ff2eb9-02e2-4ed4-b43e-b9a5ea029d25")
+		(property "Reference" "R6"
+			(at 48.26 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 49.53 174.752 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6dfbf02-ae17-48f3-a578-95d04b2086c9")
+		)
+		(pin "2"
+			(uuid "ddd7ef3a-3966-4463-b8b2-551765466421")
+		)
+		(instances
+			(project ""
+				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
+					(reference "R6")
 					(unit 1)
 				)
 			)
