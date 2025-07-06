@@ -8001,7 +8001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SlimeFootprints:ESP-12F"
 			(at 43.18 156.21 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm"
+		(property "Footprint" "SlimeFootprints:LED_CLMVC-FKA-CG1H1A1BB7D3C3"
 			(at 130.81 54.61 0)
 			(effects
 				(font
