@@ -863,183 +863,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2555,23 +2378,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at 0 0 0)
+			(property "Reference" "B1"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "HDR-M-2.54_1x2"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2612,7 +2435,7 @@
 				)
 			)
 			(symbol "HDR-M-2.54_1x2__1_1"
-				(pin passive line
+				(pin power_in line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name ""
@@ -2630,7 +2453,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name ""
@@ -4220,7 +4043,7 @@
 	)
 	(text_box "pwr flags"
 		(exclude_from_sim no)
-		(at 175.956 64.8238 0)
+		(at 173.99 36.83 0)
 		(size 11.43 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4397,12 +4220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf24cd2d-bf94-46fa-a41d-562d88561859")
-	)
-	(junction
-		(at 182.88 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6036c6d-03e3-4ecb-ba45-a49542754e27")
 	)
 	(junction
 		(at 22.86 156.21)
@@ -4781,16 +4598,6 @@
 			(type default)
 		)
 		(uuid "6d7f8a95-55f3-4478-8b30-faaf6e085694")
-	)
-	(wire
-		(pts
-			(xy 176.53 40.64) (xy 182.88 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec12ec4-55fa-4130-bb57-0a0685e159a5")
 	)
 	(wire
 		(pts
@@ -5795,30 +5602,6 @@
 		(uuid "a9f86238-38f4-4522-ad14-380fec810fc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.8023 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 176.53 40.64 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "ae595cb9-366f-4644-b719-8b14d47a0405")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 32.2802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +6933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 128.27 144.78 0)
 			(effects
 				(font
@@ -8104,76 +7887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 182.88 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50d370b5-d2ea-4b7e-ba19-c728c598eba5")
-		(property "Reference" "BT1"
-			(at 186.69 42.6084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "battery"
-			(at 186.69 45.1484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 44.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 44.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8e316d9-3608-4dd5-bd02-2115d8f8f319")
-		)
-		(pin "2"
-			(uuid "c26cbc9e-90b4-4c38-8a16-3813887c45e3")
-		)
-		(instances
-			(project ""
-				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 99.06 147.32 0)
 		(unit 1)
@@ -8646,72 +8359,6 @@
 			(project "Kicad-CheeseCake-SlimeTrackers(edit)"
 				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68694f3c-ac7d-4d71-a9a0-d5b4fe5d0e5d")
-		(property "Reference" "#PWR033"
-			(at 182.88 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e02e790e-c546-434d-9694-9ef1736822c0")
-		)
-		(instances
-			(project ""
-				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9569,72 +9216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 182.88 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97f818f2-c885-496f-aca7-76401ed8064f")
-		(property "Reference" "#PWR026"
-			(at 182.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 182.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 182.88 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a044f72b-c107-4009-b81f-9a8ed35cad6e")
-		)
-		(instances
-			(project ""
-				(path "/cb0cfa68-01d6-40dd-8faf-d58d01d74d01"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 151.13 30.48 90)
 		(unit 1)
@@ -10108,9 +9689,9 @@
 		(lib_id "_symbolsslime:POGO-F-2.5_1x2")
 		(at 97.79 53.34 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3772555-f179-4c3c-8c8a-a3438ff9b396")
