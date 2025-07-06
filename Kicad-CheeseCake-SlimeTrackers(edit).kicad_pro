@@ -460,7 +460,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "_symbolsslime"
+    ]
   },
   "meta": {
     "filename": "Kicad-CheeseCake-SlimeTrackers(edit).kicad_pro",
@@ -501,7 +503,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "Kicad-CheeseCake-SlimeTrackers(edit).dsn",
       "step": "",
       "svg": "",
       "vrml": ""
