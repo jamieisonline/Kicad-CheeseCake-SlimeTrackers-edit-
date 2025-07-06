@@ -1,0 +1,21 @@
+Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Footprint	Datasheet
+B1	1	HDR-M-2.54_1x2				Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical	
+BT1	1	battery		Excluded from BOM	Excluded from board		~
+C1	1	10uF				Capacitor_SMD:C_0603_1608Metric	~
+C2,C3,C7,C8	4	100nF				Capacitor_SMD:C_0603_1608Metric	
+C4,C5,C6	3	1uF				Capacitor_SMD:C_0603_1608Metric	
+ESP1	1	~				SlimeFootprints:ESP12F	
+J1	1	~				Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical	
+J2	1	USB_C-16p				Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A	
+J3	1	4P4C				Connector_Hirose:Hirose_DF13C_CL535-0405-0-51_1x05-1MP_P1.25mm_Vertical	~
+L1	1	NH-B2020RGBA-HF				LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm	
+Q1	1	UMH3N				Package_TO_SOT_SMD:SOT-363_SC-70-6	
+R1,R2	2	5.1k				Resistor_SMD:R_0603_1608Metric	~
+R3	1	180k				Resistor_SMD:R_0603_1608Metric	~
+R4	1	3k				Resistor_SMD:R_0603_1608Metric	~
+R5,R6,R7,R8,R9,R10	6	4.7k				Resistor_SMD:R_0603_1608Metric	~
+SW1	1	SW_SPDT				SlimeFootprints:SW_SSSS811101	~
+U1	1	ICM-45686				Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical	
+U2	1	TP4057				Package_TO_SOT_SMD:TSOT-23-6	http://toppwr.com/uploadfile/file/20230304/640302a47b738.pdf
+U3	1	CH340K				Package_SO:SOIC-10_3.9x4.9mm_P1mm	
+U4	1	ME6211C33M5				Package_TO_SOT_SMD:SOT-23-5	
